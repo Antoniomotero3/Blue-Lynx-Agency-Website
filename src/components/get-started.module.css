@@ -1,0 +1,35 @@
+.get-started {
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  background-color: #4AA4F4;
+}
+.text {
+  color: #0C100C;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 24px;
+}
+@media(max-width: 991px) {
+  .get-started {
+    flex: 1;
+  }
+}
+@media(max-width: 767px) {
+  .get-started {
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .get-started {
+    left: 0px;
+    right: 0px;
+    width: 169px;
+    bottom: -130px;
+    margin: auto;
+    position: absolute;
+  }
+}
